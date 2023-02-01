@@ -12,9 +12,9 @@ For Multi-Agent Particle Environments (MPE) installation, we add some new scenar
 
 - You can replace `simple` with any environment in the MPE you'd like to run.
 
-### Command-line options
+## Command-line options
 
-#### Environment options
+### Environment options
 
 - `--scenario`: defines which environment in the MPE is to be used (default: `"simple"`)
 
@@ -44,19 +44,19 @@ For Multi-Agent Particle Environments (MPE) installation, we add some new scenar
 
 - `--d-value`: a radius denoting how large the perturbation set is (default: `1.0`)
 
-### Train example
+## Train example
 
-#### RMA3C
+### RMA3C
 cd ./rma3c/experiments
 
 python train.py --gda-step 20 --d-value 1.0  --save-dir models/ --scenario simple --exp-name simple
 
-#### MADDPG
+### MADDPG
 cd ./maddpg/experiments
 
 python train.py --save-dir models/ --scenario simple --exp-name simple
 
-#### M3DDPG
+### M3DDPG
 cd ./m3ddpg/experiments
 
 python train.py --save-dir models/ --scenario simple --exp-name simple
