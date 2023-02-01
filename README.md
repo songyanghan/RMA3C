@@ -44,7 +44,7 @@ For Multi-Agent Particle Environments (MPE) installation, we add some new scenar
 ### Train example
 
 #### RMA3C
-cd ./rmarl/experiments
+cd ./rma3c/experiments
 
 python train.py --gda-step 20 --d-value 1.0  --save-dir models/ --scenario simple --exp-name simple
 
