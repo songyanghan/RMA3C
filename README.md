@@ -1,5 +1,5 @@
 # RMA3C
-This is the code for our paper "What is the Solution for State-Adversarial Multi-Agent Reinforcement Learning?". We implement the Robust Multi-Agent Adversarial Actor-Critic (RMA3C) algorithm in file "rmarl". The code is modified from https://github.com/openai/maddpg. Here we also include the source code of MADDPG from https://github.com/openai/maddpg and M3DDPG from https://github.com/dadadidodi/m3ddpg.
+This is the code for our paper "What is the Solution for State-Adversarial Multi-Agent Reinforcement Learning?". We implement the Robust Multi-Agent Adversarial Actor-Critic (RMA3C) algorithm in folder "rma3c". The code is modified from https://github.com/openai/maddpg. Here we also include the source code of MADDPG from https://github.com/openai/maddpg and M3DDPG from https://github.com/dadadidodi/m3ddpg.
 
 For Multi-Agent Particle Environments (MPE) installation, we add some new scenarios to the MPE and include them here. The origin MPE code is from https://github.com/openai/multiagent-particle-envs.
 
@@ -61,7 +61,7 @@ python train.py --save-dir models/ --scenario simple --exp-name simple
 ## Citation:
 If you find this repo useful in your research, please consider citing:
 ```bibtex
-@article{Han22Whatis,
+@article{han2022what,
       author = {Han, Songyang and Su, Sanbao and He, Sihong and Han, Shuo and Yang, Haizhao and Miao, Fei},
       title = {What is the Solution for State-Adversarial Multi-Agent Reinforcement Learning?},
       eprint={2212.02705},
