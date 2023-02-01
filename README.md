@@ -57,3 +57,15 @@ python train.py --save-dir models/ --scenario simple --exp-name simple
 cd ./m3ddpg/experiments
 
 python train.py --save-dir models/ --scenario simple --exp-name simple
+
+## Citation:
+If you find this repo useful in your research, please consider citing:
+```bibtex
+@article{Han22Whatis,
+      author = {Han, Songyang and Su, Sanbao and He, Sihong and Han, Shuo and Yang, Haizhao and Miao, Fei},
+      title = {What is the Solution for State-Adversarial Multi-Agent Reinforcement Learning?},
+      eprint={2212.02705},
+      archivePrefix={arXiv}
+      year = {2022},
+}
+```
