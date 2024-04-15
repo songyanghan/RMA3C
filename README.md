@@ -1,6 +1,6 @@
 # RMA3C
 
-Songyang Han, Sanbao Su, Sihong He, Shou Han, Haizhao Yang, and Fei Miao.
+Songyang Han, Sanbao Su, Sihong He, Shou Han, Haizhao Yang, Shaofeng Zou, and Fei Miao.
 
 This repository implements RMA3C (Robust Multi-Agent Adversarial Actor-Critic) to learn a robust policy to maximize the average performance under worst-case state perturbations. The implementation in this repository is used in our paper "What is the Solution for State-Adversarial Multi-Agent Reinforcement Learning?"(https://arxiv.org/abs/2212.02705). We implement the RMA3C algorithm in  the folder "rma3c". This repository is based on MADDPG from https://github.com/openai/maddpg. Our baselines include MADDPG from https://github.com/openai/maddpg, M3DDPG from https://github.com/dadadidodi/m3ddpg, and MAPPO from https://github.com/marlbenchmark/on-policy.
 
@@ -67,8 +67,7 @@ If you find this repo useful in your research, please consider citing:
 @article{han2022what,
       author = {Han, Songyang and Su, Sanbao and He, Sihong and Han, Shuo and Yang, Haizhao and Miao, Fei},
       title = {What is the Solution for State-Adversarial Multi-Agent Reinforcement Learning?},
-      eprint={2212.02705},
-      archivePrefix={arXiv}
-      year = {2022},
+      archivePrefix={Transactions on Machine Learning Research (TMLR)}
+      year = {2024},
 }
 ```
